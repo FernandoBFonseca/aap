@@ -1,0 +1,8 @@
+Authors : Eduardo SILVEIRA LARRUBIA; Fernando BARBOZA DE DEUS FONSECA; Rafael BASTOS DUNLEY 
+
+The project consists of 3 folders and "main"s, one for each part, a folder "Dico_nn" with text files with words in it and 2 files "*PrenomsV*.txt" with names in it.
+
+To complie a part, One must go to the ../Fil_Rouge/ folder and do the command "make Partie*" * been the part's name. 
+An executable file will apear in the respective part's folder.
+
+There's also the Report named "Fil_Rouge_AAP___Compte_Rendu.pdf"

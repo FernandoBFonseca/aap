@@ -1,0 +1,8 @@
+Author :Fernando BARBOZA DE DEUS FONSECA
+
+The project consists of 3 folders and "main"s, one for each part.
+
+To complie a part, One must go to the ../S2_TEA/ folder and do the command "make partie*" * been the part's number. 
+An executable file will apear in the respective part's folder.
+
+Il y a aussi le compte rendu appelé "TEA_APP_Seance_2___Compte_Rendu.pdf"

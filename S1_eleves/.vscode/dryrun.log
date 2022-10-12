@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/fernandobdf23/AAP/AAP_S1_eleves'
+ 
+echo "Veuillez choisir une cible parmi : ex1 ex2 ex3 ex4 ex5 ex6 ex_cesar ex_comptage extraits extraits.zip"
+echo "Les exécutables seront produits dans les sous-répertoires correspondants"
+echo "N'oubliez pas d'exécuter la commande source setup_env.sh"
+make: Leaving directory '/home/fernandobdf23/AAP/AAP_S1_eleves'
+ 

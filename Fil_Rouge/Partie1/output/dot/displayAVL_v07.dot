@@ -1,0 +1,77 @@
+digraph displayAVL {
+	node [
+		fontname  = "Arial bold" 
+		fontsize  = "14"
+		fontcolor = "red"
+		style     = "rounded, filled"
+		shape     = "record"
+		fillcolor = "grey90"
+		color     = "blue"
+		width     = "2"
+	]
+
+	edge [
+		color     = "blue"
+	]
+
+	"ABEL
+" [label = "{{<c> ABEL
+ | <b> -1} | { <g> | <d>}}"];
+	"ABEL
+":g -> "ABDELKADER
+";
+	"ABDELKADER
+" [label = "{{<c> ABDELKADER
+ | <b> 0} | { <g> | <d>}}"];
+	"ABDELKADER
+":g -> "ABDEL-HAMID
+";
+	"ABDEL-HAMID
+" [label = "{{<c> ABDEL-HAMID
+ | <b> 0} | { <g> | <d>}}"];
+	"ABDEL-HAMID
+" [label = "{{<c> ABDEL-HAMID
+ | <b> 0} | { <g> NULL | <d> NULL}}"];
+	"ABDELKADER
+":d -> "ABDELKRIM
+";
+	"ABDELKRIM
+" [label = "{{<c> ABDELKRIM
+ | <b> 0} | { <g> | <d>}}"];
+	"ABDELKRIM
+" [label = "{{<c> ABDELKRIM
+ | <b> 0} | { <g> NULL | <d> NULL}}"];
+	"ABEL
+":d -> "ADELE
+";
+	"ADELE
+" [label = "{{<c> ADELE
+ | <b> -1} | { <g> | <d>}}"];
+	"ADELE
+":g -> "ADELAIDE
+";
+	"ADELAIDE
+" [label = "{{<c> ADELAIDE
+ | <b> 0} | { <g> | <d>}}"];
+	"ADELAIDE
+" [label = "{{<c> ADELAIDE
+ | <b> 0} | { <g> NULL | <d> NULL}}"];
+	"ADELE
+":d -> "ADELINE
+";
+	"ADELINE
+" [label = "{{<c> ADELINE
+ | <b> -1} | { <g> | <d>}}"];
+	"ADELINE
+" [label = "{{<c> ADELINE
+ | <b> -1} | { <g> NULL | <d> }}"];
+	"ADELINE
+":d -> "ADOLPHE
+";
+	"ADOLPHE
+" [label = "{{<c> ADOLPHE
+ | <b> 0} | { <g> | <d>}}"];
+	"ADOLPHE
+" [label = "{{<c> ADOLPHE
+ | <b> 0} | { <g> NULL | <d> NULL}}"];
+}

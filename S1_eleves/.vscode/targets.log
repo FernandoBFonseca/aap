@@ -1,0 +1,498 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Nov 19 13:27:24 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/fernandobdf23/AAP/AAP_S1_eleves
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"7c628789074797d26a32c85596440fb2.pt-br","_translationsConfigFile":"/home/fernandobdf23/.config/Code/clp/7c628789074797d26a32c85596440fb2.pt-br/tcf.json","_cacheRoot":"/home/fernandobdf23/.config/Code/clp/7c628789074797d26a32c85596440fb2.pt-br","_resolvedLanguagePackCoreLocation":"/home/fernandobdf23/.config/Code/clp/7c628789074797d26a32c85596440fb2.pt-br/3a6960b964327f0e3882ce18fcebd07ed191b316","_corruptedFile":"/home/fernandobdf23/.config/Code/clp/7c628789074797d26a32c85596440fb2.pt-br/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+JOURNAL_STREAM = 8:30702
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = fernandobdf23
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+MANAGERPID = 964
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/fernandobdf23
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/fernandofonseca-VM:@/tmp/.ICE-unix/1259,unix/fernandofonseca-VM:/tmp/.ICE-unix/1259
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=3f500c76-da9c-42dc-8a6b-d9976887ab2c&iid=3f500c76-da9c-42dc-8a6b-d9976887ab2c&sid=3f500c76-da9c-42dc-8a6b-d9976887ab2c","uploadToServer":true}
+# environment
+INVOCATION_ID = 5baa56bb6af740b59354afd2990bd699
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2029
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/fernandobdf23/AAP/AAP_S1_eleves
+# makefile (from 'makefile', line 2)
+CLEANTARGETS = $(foreach dir,$(TARGETS),clean_$(dir))
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1190
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/fernandobdf23
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/fernandobdf23/.config/Code/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316
+# environment
+LOGNAME = fernandobdf23
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-36cbe0ce-95fa-4207-bb52-3181516bbe5b.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = fernandobdf23
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = pt_BR:pt:en
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-1266654f-1.62.2-main.sock
+# makefile (from 'makefile', line 1)
+TARGETS = $(shell ls -d ex*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/fernandobdf23/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+VSCODE_PID = 2029
+# variable set hash-table stats:
+# Load=103/1024=10%, Rehash=0, Collisions=14/161=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2050, inode 2100021): 18 files, no impossibilities.
+
+# 18 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+ex5:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 11):
+	@echo Execution de make $@ :
+	@cd $@; make
+
+clean_ex_comptage:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 15):
+	@echo Execution de clean $(subst clean_,,$@) :
+	@cd $(subst clean_,,$@); make clean
+
+extraits.zip:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 11):
+	@echo Execution de make $@ :
+	@cd $@; make
+
+clean_ex1:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 15):
+	@echo Execution de clean $(subst clean_,,$@) :
+	@cd $(subst clean_,,$@); make clean
+
+# 'override' directive
+all: .SHELLSTATUS := 0
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+ 
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=9/32=28%, Rehash=0, Collisions=3/16=19%
+#  recipe to execute (from 'makefile', line 5):
+	@echo "Veuillez choisir une cible parmi : $(TARGETS)"
+	@echo "Les exécutables seront produits dans les sous-répertoires correspondants"
+	@echo "N'oubliez pas d'exécuter la commande source setup_env.sh"
+
+clean_ex_cesar:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 15):
+	@echo Execution de clean $(subst clean_,,$@) :
+	@cd $(subst clean_,,$@); make clean
+
+.PHONY: ex1 ex2 ex3 ex4 ex5 ex6 ex_cesar ex_comptage extraits extraits.zip
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ex4:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 11):
+	@echo Execution de make $@ :
+	@cd $@; make
+
+ex3:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 11):
+	@echo Execution de make $@ :
+	@cd $@; make
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean_ex2:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 15):
+	@echo Execution de clean $(subst clean_,,$@) :
+	@cd $(subst clean_,,$@); make clean
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-04 13:56:47
+#  File has been updated.
+#  Successfully updated.
+
+clean_ex6:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 15):
+	@echo Execution de clean $(subst clean_,,$@) :
+	@cd $(subst clean_,,$@); make clean
+
+tout:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 89):
+	@echo "Vous n'avez pas autre chose à faire que chercher des easter eggs dans un makefile ?"	
+
+clean_extraits:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 15):
+	@echo Execution de clean $(subst clean_,,$@) :
+	@cd $(subst clean_,,$@); make clean
+
+ex_comptage:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 11):
+	@echo Execution de make $@ :
+	@cd $@; make
+
+ex1:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 11):
+	@echo Execution de make $@ :
+	@cd $@; make
+
+ex_cesar:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 11):
+	@echo Execution de make $@ :
+	@cd $@; make
+
+clean_ex5:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 15):
+	@echo Execution de clean $(subst clean_,,$@) :
+	@cd $(subst clean_,,$@); make clean
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean_extraits.zip:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 15):
+	@echo Execution de clean $(subst clean_,,$@) :
+	@cd $(subst clean_,,$@); make clean
+
+clean: clean_ex1 clean_ex2 clean_ex3 clean_ex4 clean_ex5 clean_ex6 clean_ex_cesar clean_ex_comptage clean_extraits clean_extraits.zip
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+toutout: ex1 ex2 ex3 ex4 ex5 ex6 ex_cesar ex_comptage extraits extraits.zip
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean_ex4:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 15):
+	@echo Execution de clean $(subst clean_,,$@) :
+	@cd $(subst clean_,,$@); make clean
+
+ex2:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 11):
+	@echo Execution de make $@ :
+	@cd $@; make
+
+clean_ex3:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 15):
+	@echo Execution de clean $(subst clean_,,$@) :
+	@cd $(subst clean_,,$@); make clean
+
+ex6:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 11):
+	@echo Execution de make $@ :
+	@cd $@; make
+
+extraits:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 11):
+	@echo Execution de make $@ :
+	@cd $@; make
+
+# files hash-table stats:
+# Load=28/1024=3%, Rehash=0, Collisions=0/80=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 37 / storage = 343 B / avg = 9 B
+# current buf: size = 8162 B / used = 343 B / count = 37 / avg = 9 B
+
+# strcache performance: lookups = 108 / hit rate = 65%
+# hash-table stats:
+# Load=37/8192=0%, Rehash=0, Collisions=1/108=1%
+# Finished Make data base on Fri Nov 19 13:27:25 2021
+
+ 
